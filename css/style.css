@@ -1,0 +1,119 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    height: 50em;
+    width: auto;
+
+}
+
+body{
+    background-color: #222;
+    color:white;
+}
+
+header{
+    padding-top: 6em;
+}
+
+h1{
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.pai{
+    height: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_table{
+    display:table;
+    background-color: #313131;
+    height: 100%;
+    width: 95%;
+    padding: 2.5em;
+    padding-top: 4.5em;
+    margin: 1em .5em;
+    border-radius: 10px;
+}
+
+#bingo{
+    
+    justify-content: space-evenly;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 17px;
+    
+}
+
+th{
+    font-size: 24px;
+    cursor:default;
+    background-color:#2a4fc5;
+}
+
+.letra{
+    background-color: #4c2ba5 ;
+}
+
+th,td{
+    border: 2px solid #ddd; 
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: #444;
+}
+
+.clicked{
+    background-color: rgb(0, 100, 0);
+}
+
+
+.Numbers:hover{
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(65, 65, 115);
+    
+}
+
+.divButton{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+
+#reset{
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: .3em;
+    margin-left: 1.2em;
+    border:solid 2px;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#reset:hover{
+    background-color: #4c4c4c;
+    color: #fcfcfc;
+    border: #ccc solid 2px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 7em;
+}
+
+span{
+    font-size: 11px;
+}
