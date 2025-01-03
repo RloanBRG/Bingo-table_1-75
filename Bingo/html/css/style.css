@@ -6,9 +6,16 @@ html{
 
 }
 
-body{
+body {
+     transition: background-color 0.5s, color 0.5s;
+    }
+body.escuro{
     background-color: #222;
     color:white;
+}
+body.claro{
+    background-color: white;
+    color: black;
 }
 
 header{
@@ -28,7 +35,7 @@ h1{
     align-items: center;
 }
 
-.div_table{
+#div_table.escuro{
     display:table;
     background-color: #313131;
     height: 100%;
@@ -38,6 +45,18 @@ h1{
     margin: 1em .5em;
     border-radius: 10px;
 }
+
+#div_table.claro{
+    display:table;
+    background-color: #bbb;
+    height: 100%;
+    width: 95%;
+    padding: 2.5em;
+    padding-top: 4.5em;
+    margin: 1em .5em;
+    border-radius: 10px;
+}
+
 
 #bingo{
     
@@ -65,7 +84,7 @@ th,td{
 }
 
 tr:nth-child(even){
-    background-color: #444;
+    background-color: #5a5a5a;
 }
 
 .clicked{
@@ -116,4 +135,25 @@ footer{
 
 span{
     font-size: 11px;
+}
+
+#tema{
+    margin-left: 50px;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: .3em;
+    margin-left: 1.2em;
+    border:solid 2px;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#tema:hover{
+    background-color: #4c4c4c;
+    color: #fcfcfc;
+    border: #ccc solid 2px;
 }
